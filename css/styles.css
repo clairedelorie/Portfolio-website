@@ -135,7 +135,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 .about {
     min-width: 360px;
     max-width: 1200px;
-    } 
+    }
 .about {
       max-width: 700px;
       margin: 0 auto;
@@ -155,7 +155,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 .work {
   min-width: 360px;
   max-width: 1200px;
-  } 
+  }
 .work {
     max-width: 700px;
     margin: 0 auto;
@@ -201,7 +201,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 
   button:hover, button:focus {
   /* lets the mouse appear as a hand when hovering over the button */
-  cursor: hand pointer;
+  cursor: pointer;
   /* reduces the opacity of the button to 80% */
   opacity: 0.8;
   }

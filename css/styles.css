@@ -11,9 +11,7 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  /* Sets the font size to 16px */
   line-height: 1.6;
-  /* Sets the line-height to 1.6 */
   background-color: #FFF5EE;
   }
 
@@ -117,7 +115,7 @@ div.brackets a:hover:before, div.brackets a:hover:after
 }
 
 .grid__item {
-  background-color: lightgray;
+  background-color: #778899;
 }
 
 .grid {
@@ -147,11 +145,6 @@ div.brackets a:hover:before, div.brackets a:hover:after
   list-style-type: none;
 }
 
-.florida {
-  max-width: 100%;
-  height: auto;
-}
-
 .work {
   min-width: 360px;
   max-width: 1200px;
@@ -162,6 +155,20 @@ div.brackets a:hover:before, div.brackets a:hover:after
     }
 .work {
  text-align: center;
+}
+
+.contact {
+    min-width: 360px;
+    max-width: 1200px;
+    }
+
+.contact {
+      max-width: 700px;
+      margin: 40px;
+      }
+
+.contact {
+   text-align: center;
 }
 
 /*buttons*/

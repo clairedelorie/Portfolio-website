@@ -140,24 +140,6 @@ div.brackets a:hover:after {
   width: 100%;
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
-}
-
-.projects-grid__item {
-  padding: 20px;
-  display: grid;
-  max-width: 450px;
-  grid-template-columns: 1fr;
-  text-align: left;
-  background-color: white;
-  border: solid var(--light-grey) 1px;
-  border-radius: 5px;
-  margin: 0 auto;
-}
-
 .projects-image {
   border: solid var(--light-grey) 1px;
   width: 250px;
@@ -215,6 +197,9 @@ div.brackets a:hover:after {
   justify-content: center;
   background-color: #e2eae9;
   color: #2e765e;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .card:hover {
@@ -230,7 +215,8 @@ div.brackets a:hover:after {
 }
 
 .row {
-  display: inline-block;
+  display: grid;
+  grid-gap: 1rem;
 }
 
 .work {
@@ -253,6 +239,9 @@ div.brackets a:hover:after {
   padding: 2px 16px;
   display: grid;
   grid-gap: 1rem;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .meet-card {
@@ -265,6 +254,9 @@ div.brackets a:hover:after {
   background-color: #e2eae9;
   padding: 15px;
   color: #2e765e;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .pokedex-card {
@@ -277,6 +269,9 @@ div.brackets a:hover:after {
   background-color: #e2eae9;
   padding: 15px;
   color: #2e765e;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .myflix-card {
@@ -289,6 +284,9 @@ div.brackets a:hover:after {
   background-color: #e2eae9;
   padding: 15px;
   color: #2e765e;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .angular-card {
@@ -301,6 +299,9 @@ div.brackets a:hover:after {
   background-color: #e2eae9;
   padding: 15px;
   color: #2e765e;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .chat-card {
@@ -313,6 +314,9 @@ div.brackets a:hover:after {
   background-color: #e2eae9;
   padding: 15px;
   color: #2e765e;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 
 .api-card {
@@ -325,6 +329,9 @@ div.brackets a:hover:after {
   background-color: #e2eae9;
   padding: 15px;
   color: #2e765e;
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
 }
 /*buttons*/
 a:visited {

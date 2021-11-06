@@ -5,8 +5,6 @@
   --fourth-color: #00493a;
 }
 
-@media screen and (max-width: 1280 px) {
-}
 a {
   color: #edf0ee;
   font-size: x-large;
@@ -17,7 +15,7 @@ a {
 body {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 18px;
   /* Sets the font size to 16px */
   line-height: 1.6;
   /* Sets the line-height to 1.6 */
@@ -49,16 +47,16 @@ li {
 }
 
 .profile {
-  min-width: 360px;
-  max-width: 1200px;
+  max-width: 100%;
+  padding: 15px;
 }
 
 .profile_portrait {
-  float: left;
-  width: 250px;
-  height: auto;
-  margin-right: 40px;
+  max-width: 50%;
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 50%;
+  display: block;
 }
 
 * {
@@ -238,8 +236,8 @@ div.brackets a:hover:after {
 }
 
 .card-img-top {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 85%;
+  max-height: auto;
   border-radius: 5px;
 }
 
